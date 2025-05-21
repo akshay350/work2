@@ -1,0 +1,376 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav img{
+    width: 78px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+
+    height: 80px;
+    background-color: white;
+    
+    
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+    margin-top: 35px;
+
+    }
+
+    nav ul li a{
+        color: black;
+        font-size: 20px;
+
+    }
+
+    nav ul li a:hover{
+
+        color: aqua;
+        border-bottom: 2px solid black;
+    }
+
+    #home{
+        background-image:linear-gradient(rgba(10,10,10,0.8),rgba(0,0,0,0.8)), url(../gymwebsite/images/360_F_725016819_jOXJkOJZqRSEkdKhheFsLkxuYq59iwa0.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .bg-text{
+        color: white;
+        text-align: center;
+        margin-top: 15%;
+    }
+    .bg-text h5{
+        background-color: greenyellow;
+        border: 1px solid greenyellow;
+        border-radius: 15px;
+        margin: auto;
+        padding: 15px;
+        width: 200px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .bg-text h2{
+        font-size: 30px;
+        margin-top: 10px;
+
+    }
+    .bg-text p{
+        margin-top: 10px;
+
+    }
+
+    .bg-text button{
+        border: 2px solid black;
+        padding: 10px;
+        margin: 30px 3px;
+        border-radius: 15px;
+        background-color: antiquewhite;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    /*Team start*/
+    .team-box{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        
+
+    }
+    .team-content{
+        margin-top: 30px ;
+        background-color:rgb(207, 246, 207);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+        padding: 20px 30px;
+        text-align: center;
+    }
+    .team-content h2{
+        font-size: 30px;
+    }
+    .team-content p{
+        margin-top: 5px;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    button{
+        background-color: honeydew;
+        border: 2px solid gray;
+        border-radius: 15px;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 18px;
+        margin-top: 10px;
+        width: 125px;
+    }
+    /*Team end*/
+
+
+    /*ABOUT START */
+    #about{
+        background-color: white;
+        margin-top: 20px;
+    }
+    .about-content img{
+        width: 80%;
+    margin-bottom: 5px;
+
+    }
+    .about-content{
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .about-content h5{
+        background-color: green;
+        padding: 11px;
+        border-radius: 23px;
+        font-size: 19px;
+        width: 240px;
+        margin: 18px;
+        
+    }
+
+    .about-content h1{
+        font-size: 30px;
+        margin: 18px;
+
+    }
+
+    .about-content p{
+        font-size: 19px;
+        margin: 18px;
+    }
+
+
+    .about-bg{
+        display: flex;
+        justify-content:space-between ;
+        
+    }
+
+    .about-content button{
+        background-color: #081828;
+        color: white;
+        border: none;
+        font-size: 19px;
+        padding: 15px;
+        margin: 18px 5px;
+        cursor: pointer;
+    }
+    /*ABOUT END*/
+
+
+
+    /*course start*/
+    .fe{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .fe h2{
+        font-size: 40px;
+        
+        margin-top: 10px;
+        width: 420px;
+        border-bottom: 4px solid green;
+        margin: auto;
+    }
+    .fe p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+
+    .layout {
+        width: 100%;
+        display: flex;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        background-color: white;
+
+      }
+
+      .c-text img{
+        width: 90%;
+        transition: 0.9s;
+      }
+      .c-text img:hover{
+        transform: scale(1.1);
+      }
+      .c-text{
+        margin-left: 20px;
+      }
+      .c-text h2{
+      margin-top: 20px;
+      font-size: 35px;
+      }
+
+      .c-text p{
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 25px;
+         
+      }
+    /*course end*/
+
+    /*counter start*/
+    #counter{
+        background-image:linear-gradient(rgba(255,255,255,0.8),rgba(1,1,1,0.8)), url(../gymwebsite/images/new8.webp);
+       object-fit: cover;
+       background-position: center;   
+        height:  50%;
+        margin-top: 15px;
+    }
+    .c{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .c-number{
+        margin-top: 10%;
+    }
+    .c-number h2{
+        font-size: 55px;
+    }
+    .c-number h5{
+        font-size: 25px;
+    }
+    /*counter end*/
+
+
+  /* course part 1*/
+
+    .fe1{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .fe1 h2{
+        font-size: 40px;
+        
+        margin-top: 10px;
+        width: 420px;
+        border-bottom: 4px solid green;
+        margin: auto;
+    }
+    .fe1 p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+
+    .layout {
+        width: 100%;
+        display: flex;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        background-color: white;
+
+      }
+
+      .c-text img{
+        width: 90%;
+        transition: 0.9s;
+      }
+      .c-text img:hover{
+        transform: scale(1.1);
+      }
+      .c-text{
+        margin-left: 20px;
+      }
+      .c-text h2{
+      margin-top: 20px;
+      font-size: 35px;
+      }
+
+      .c-text p{
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 25px;
+         
+      }
+
+      /*one pending section*/
+
+      
+      /* end section*/
+
+      /* student section*/
+      #student{
+        background-color: #0edc8d;
+        height:  85%;
+        
+        margin-top: 10px;
+        
+
+      }
+      .s-text{
+        text-align: center;
+        color: white;
+     margin-left: 5px;
+      }
+      .s-text h2{
+        font-size: 40px;
+        margin: 30px;
+      }
+      .s-text p{
+        font-size: 20px;
+        margin-top: 20px;
+      }
+
+      .s-box{
+        display: flex;
+        justify-content: center;
+        
+        gap: 30px;
+        margin: 7px;
+      }
+      .s-contaier{
+        background-color: white;
+        padding: 30px;
+        margin-top: 5%;
+        border-bottom: 4px solid black;
+        transition: 0.8s;
+
+      }
+
+      .s-contaier p{
+        font-size: 17px;
+        padding: 10px;
+      }
+      
+      .s-contaier:hover{
+        background-color: aquamarine;
+        border-radius: 20px;
+        transform: translateY(-30px);
+        cursor: pointer;
+      }
+
+      .s-contaier img{
+        width: 40%;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+      }
+
+
+
+
+   /* student end*/
